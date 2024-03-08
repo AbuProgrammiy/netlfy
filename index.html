@@ -4,44 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="main.css">
+  <style>
+    .profile-picture {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+  </style>
   <title>Document</title>
 </head>
 <body>
+  <img src="image/me.png" alt="Profile Picture" class="profile-picture">
+
+  <!-- Rest of your HTML code -->
   <!-- Canvas -->
-<canvas class="orb-canvas"></canvas>
-<!-- Overlay -->
-<div class="overlay">
-  <!-- Overlay inner wrapper -->
-  <div class="overlay__inner">
-    <!-- Title -->
-    <h1 class="overlay__title">
-      Nma gap, bolajonla 
-      <span class="text-gradient">generative</span> Bovottimi?
-    </h1>
-    <!-- Description -->
-    <p class="overlay__description">
-      You Tube sahifamga obuna bop qoyila @Abu_Programmiy</strong>
-    </p>
-    <!-- Buttons -->
-    <div class="overlay__btns">
-
-      <button class="overlay__btn overlay__btn--transparent">
-        <a href="https://www.youtube.com/@Abu_Programmiy" target="_blank">
-
-          Hop
-        </a>
-      </button>
-
-      <button class="overlay__btn overlay__btn--colors">
+  <canvas class="orb-canvas"></canvas>
+  <!-- Overlay -->
+  <div class="overlay">
+    <!-- Overlay inner wrapper -->
+    <div class="overlay__inner">
+      <!-- Title -->
+      <h1 class="overlay__title">
+        Nma gap, bolajonla 
+        <span class="text-gradient">generative</span> Bovottimi?
+      </h1>
+      <!-- Description -->
+      <p class="overlay__description">
+        You Tube sahifamga obuna bop qoyila @Abu_Programmiy</strong>
+      </p>
+      <!-- Buttons -->
+      <div class="overlay__btns">
+        <button class="overlay__btn overlay__btn--transparent">
+          <a href="https://www.youtube.com/@Abu_Programmiy" target="_blank">
+            Hop
+          </a>
+        </button>
+        <button class="overlay__btn overlay__btn--colors">
           <a href="https://www.youtube.com/@Abu_Programmiy" target="_blank">
             Hop boladi
           </a>
-        <span class="overlay__btn-emoji">🎨</span>
-      </button>
+          <span class="overlay__btn-emoji">🎨</span>
+        </button>
+      </div>
     </div>
   </div>
-</div>
 
-<script src="./javaS.js"></script>
+  <script src="./javaS.js"></script>
 </body>
 </html>
