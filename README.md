@@ -1,2 +1,2 @@
-## This is also expired!
-### Redirect to: `https://github.com/AbuProgrammiy/project`
+## You are appearing in unwanted place!
+### Please Redirect to: `https://github.com/AbuProgrammiy/project`
